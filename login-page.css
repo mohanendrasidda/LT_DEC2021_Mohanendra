@@ -9,7 +9,7 @@
     box-shadow: rgb(99,131,94);
 }
 body{
-    background-image: url('/images/login-background-image4.jpg');
+    background-image: url('login-background-image4.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
     background-position: center;
