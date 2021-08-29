@@ -1,0 +1,43 @@
+.main-teams{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-teams-data{
+    width: 220px;
+    height: 230px;
+    border: 1px solid lightgray;
+    margin: 9px;
+    border-radius: 3px;
+    padding: 0 30px 0 15px;
+    background-color: rgba(240, 238, 238, 0.3);;
+}
+.main-teams :nth-child(1){
+    margin-left: 0;
+}
+div p span{
+    font-size: 0.75em;
+}
+.main-teams-data button{
+    background-color:rgb(209, 4, 4);
+    color: white;
+    border:none;
+}
+.main-teams-data div button{
+    background: rgb(9, 112, 153);
+    color: white;
+    box-shadow: white;
+}
+.add-team{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.add-team span{
+    font-weight: 1px;
+    
+}
+.main-teams-data:hover{
+    box-shadow: gold;
+    border-color: gold;
+}

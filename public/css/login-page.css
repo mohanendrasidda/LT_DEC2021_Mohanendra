@@ -1,0 +1,58 @@
+.login-container{
+    height: 80%;
+    background-color:rgba(248, 250, 248,0.5);
+    position: relative;
+    margin-left:35%;
+    margin-right:40%;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgb(99,131,94);
+}
+body{
+    background-image: url('/images/login-background-image4.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.form-heading{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.form-heading h3{
+    font-size: 2em;
+    color:rgba(7, 0, 0, 1);
+    font-weight: 600;
+    opacity: 1;
+}
+  
+.times{
+    float: right;
+    padding: 3px;
+    margin:5px;
+}
+.times button{
+    border-radius: 4px;
+   background-color:  green;
+}
+.form-input{
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    margin:1em;
+    opacity: 1;
+}
+input[type=text]{
+    height: 2em;
+    border-radius: 5px;
+}
+input[type=password]{
+    height: 2em;
+    border-radius: 5px;
+    background-color: white;
+}
+.form-input button{
+    width: 100px;
+}

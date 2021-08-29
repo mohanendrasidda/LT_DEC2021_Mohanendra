@@ -1,0 +1,36 @@
+.list-unstyled{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.right a{
+text-decoration: none;
+}
+.right-ul{
+    height:0.5em;
+}
+.container-main{
+    margin: 0 105px 0 45px;
+    height: auto;
+    background-image: url('/images/main-background-image1.jpg');
+}
+.main-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.container-main-date{
+    margin: 0 105px 0 45px;
+    background-color:rgb(88, 194, 194) ;
+    height: 1.4em;
+    margin: 2px 105px 2px 45px;
+
+}
+hr{
+    background-color:  rgb(238, 238, 238);
+    height:0.01px;
+}
