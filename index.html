@@ -4,67 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meetings-app</title>
+    <link rel="stylesheet" href="login-page.css">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="utils.css">
+    <title>login-page</title>
+    <script>
+        document.querySelector("#button").onclick= function redirect(){
+            var url = "home.html";
+             window.location(url);
+        }
+    </script>
+    <style>
+        a{
+            text-decoration: none;
+            color: black; 
+
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="nav-main">
-        <div class="navbar">
-            <ul class="nav-links list-unstyled">
-                <li><a href="index.html">Calendar</a></li>
-                <li><a href="Meetings.html">Meetings</a></li>
-                <li><a href="teams.html">Teams</a></li>
-            </ul>
-            <div class="navbar-right">
-                <ul class="right-ul">
-                    <div class="right">
-                        <li style="margin-right:0;">Hello <span>jon.doe@example.com!</span></li>
 
-                        <li><a href="login-page.html">Logout</a></li>
-                        
-                    </div>
-                </ul>
-            </div>
-
+    <div class="login-container">
+        <div class="times"><button>&times;</button></div>
+        <div class="form-heading">
+            <h3>Login Form</h3>
         </div>
-    </nav>
-    <main>
-            <div class="container-main">
-                <h2>Calendar</h2>
-                <hr>
-            </div>
-            <div class="main-date container-main">
-                <p>
-                    <b>12 September 2020 </b><br>Saturday
-                </p>
-                <p>
-                    <input type="date">
-                </p>
-            </div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-            <div class="container-main-date"></div>
-      
-    </main>
+        <form action="">
+            
+                <div  class="form-input">
+                        <input type="text" placeholder="E-Mail or Phone" id="form-userid">
+                </div>
+                <div  class="form-input">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="form-input-forgot">
+                    Forgot Password?
+                </div>
+                <div class="form-input" id="button">
+                    <button onClick="redirect()"><a href="home.html">Login</a></button>
+                </div>
+            
+        </form>
+        
+
+    </div>
 </body>
 
 </html>
